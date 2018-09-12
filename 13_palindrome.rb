@@ -17,4 +17,10 @@
 
 def palindrome (string)
   # Your code here
+  word = "enter word here"
+  input = gets.chomp
+  reverse = input.reverse
+
+  if input == reverse ? puts "true" : puts "false"
+  end
 end
