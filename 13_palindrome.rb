@@ -15,6 +15,7 @@
 # ruby tests/06_palindrome_test.rb
 #
 
+<<<<<<< HEAD
   # Your code here
 
   word = "enter word here"
@@ -27,3 +28,8 @@
  else
   puts "This is not a palindrome"
  end
+=======
+def palindrome (string)
+  string == string.reverse
+end
+>>>>>>> b028df5d644e116007105a13b9522c8e1282f993
