@@ -15,12 +15,15 @@
 # ruby tests/06_palindrome_test.rb
 #
 
-def palindrome (string)
   # Your code here
-  word = "enter word here"
-  input = gets.chomp
-  reverse = input.reverse
 
-  if input == reverse ? puts "true" : puts "false"
-  end
-end
+  word = "enter word here"
+  puts word
+  input = gets.chomp
+  reversed = input.reverse
+
+ if input == reversed
+  puts "this is a palindrome"
+ else
+  puts "This is not a palindrome"
+ end
