@@ -17,3 +17,8 @@
 def vowels (string)
   string.scan(/[aeiou]/i)
 end
+
+puts "Enter your word here"
+string = gets.chomp
+
+puts vowels

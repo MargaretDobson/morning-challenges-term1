@@ -15,10 +15,14 @@
 # ruby tests/07_in_array.rb
 #
 
-# def in_array (needle, haystack)
-#   # Your code here
-# end
+def in_array (needle, haystack)
+  # Your code here
+end
+arr1[] = 0
 
+until arr1 == "end"
 puts "enter values here"
 arr1[] = gets.chomp
+end
 
+puts arr1
