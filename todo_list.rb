@@ -12,7 +12,18 @@
 # To accomplish this, you should define two classes - a TodoList class
 # and a TodoListItem class.
 class TodoList
+    attr_accessor :title, :description
+    def initialize
+        @title = title
+        @description = [] #passing an array
+    
+    end
+    def title
+        
+    end
 end
+
+    
 
 class TodoListItem
 end
