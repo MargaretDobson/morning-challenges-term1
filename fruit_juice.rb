@@ -22,12 +22,17 @@
 
 class Jug
     def initialize(capacity)
+        @banana_juice = banana_juice
+        @apple_juice = apple_juice
     end
 
     def add(amount, type)
+        amount = ""
+        type = [banana_juice, apple_juice]
     end
 
     def pour(amount)
+        jug = ""
     end
 
     def getTotalAmount
