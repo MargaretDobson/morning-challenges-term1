@@ -10,6 +10,7 @@ class Player1
         p1name = "#{player1_name}"
     end
     def p2Gender
+        #add more pronouns
         case "#{player1G}"
             when "#{player1G}" == "m", "M"      #setting pronoun for player 1 to him
                 pronoun = "him"

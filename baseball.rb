@@ -27,14 +27,21 @@
 #
 class Baseball
     def initialize
+        @entry = entry
+        @bat = bat
+        @ScoreCard = scorecard 
     end    
     # A public method accepting the result of an at-bat
     # @param {string} entry - The result of an at-bat 
     # Acceptable values: ('single', 'double', 'triple', 'homerun' or 'out') 
     def addEntry(entry)
+        puts "Please enter score"
+        score = gets.chomp[]
     end
+    
     # A public method returning the current score
     # Format: "Home: [HOME_SCORE] Away: [AWAY_SCORE]"
     def to_s
+        puts score
     end
 end
