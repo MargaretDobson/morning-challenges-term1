@@ -24,7 +24,14 @@
 #
 class RomanNumerals
     def self.fromRoman(number)
+        case when 1number == 1
+            puts "1 = I"
+        end
     end
     def self.toRoman(number)
     end
 end
+
+puts "What number would you like to convert to roman numerals?"
+1number = gets.chomp
+1number = RomanNumerals.new
