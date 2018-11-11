@@ -26,11 +26,19 @@ class Dictionary
   end
   def add_word(key, val)
     @words[key] = val
+    puts "add word and definition"
+    @words = gets.chomp
   end
   def total_words
     @words.length
   end
   def lookup(key)
     @words[key]
+    puts "enter word you want to lookup"
+    lookup_word = gets.chomp
+
+    if lookup_word == @words
+      return [key]
+    end
   end
 end

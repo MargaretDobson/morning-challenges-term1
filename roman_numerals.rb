@@ -24,14 +24,33 @@
 #
 class RomanNumerals
     def self.fromRoman(number)
-        case when 1number == 1
-            puts "1 = I"
+        case when 1number == "I" || "i"
+            puts "I = 1"
+        end
+        case when 1number == "V" || "v"
+            puts "V = 5" 
+        end
+        case when 1number == "X" || "x"
+            puts "X = 10"
+        end
+        case when 1number == "L" || "l"
+            puts "L = 50"
+        end
+        case when 1number == "C" || "c"
+            puts "C = 100"
+        end
+        case when 1number == "D" || "d"
+            puts "M = 1000"
         end
     end
     def self.toRoman(number)
+        case when
     end
 end
 
-puts "What number would you like to convert to roman numerals?"
+puts "What number would you like to convert from roman numerals?"
 1number = gets.chomp
 1number = RomanNumerals.new
+
+puts "What number would would you like to convert to roman numerals?"
+2number = gets.chomp

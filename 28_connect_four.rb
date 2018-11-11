@@ -34,6 +34,6 @@ class Connect4
     #your code here
   end
   def play(column)
-    #your code here
+    
   end  
 end

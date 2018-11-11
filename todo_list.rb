@@ -19,7 +19,13 @@ class TodoList
     
     end
     def title
-        
+        @title = title
+        puts "Enter title"
+        list_title = gets.chomp
+    end
+    def description
+        @description = []
+        description = description + list_title
     end
 end
 

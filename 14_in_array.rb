@@ -16,13 +16,11 @@
 #
 
 def in_array (needle, haystack)
-  # Your code here
-end
-arr1[] = 0
 
-until arr1 == "end"
-puts "enter values here"
-arr1[] = gets.chomp
 end
+
+puts "enter your word here"
+word = gets.chomp
+
 
 puts arr1
