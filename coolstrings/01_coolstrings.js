@@ -14,12 +14,14 @@
 
 
 
+var assert = require('assert');
 
+const coolstrings = 'coolstrings'
 
 function setNumbers(num) {
   numbers = num;  
 }
-var assert = require('assert');
+var numbers = 7
   
 describe('coolstrings', () => {
     it('checks that coolstrings cannot be changed', function() {
