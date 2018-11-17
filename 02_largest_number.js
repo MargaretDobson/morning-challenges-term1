@@ -10,7 +10,14 @@ mocha 02_largest_number.js
 
 function largestNumber(arr) {
     // Your code here
-    
+    let bignum = arr[0] //takes the first element and stores it
+    for (let num of arr){
+        if (num > bignum { // check 
+            bigNum = num 
+        }
+        console.log(num)
+    }
+    return bigNum // display 
 }
 largestNumber()
 

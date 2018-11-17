@@ -5,11 +5,27 @@
 
 function findWinner(players) {
     // Your code here
-
+    let totalScore = 0;
 }
 
+function findWinner(players) {
+    let highestScore = 0
+    let name = ''
+    for (let player of players){
+        let totalScore = 0
+        for(let score of player.scores){
+            totalScore += score
+        }
+        if (totalScore > highestScore) {
+            highestScore = totalScore
+            name = player.name
+        }
+    }
+    return name
+}
 
 var assert = require('assert');
+
 
 class Player {
     constructor(name, scores) {

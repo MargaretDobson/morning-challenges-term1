@@ -8,6 +8,15 @@ mocha 03_open_door.js
 
 function openDoor(input) {
     // Your code here
+    if (item.name === 'Simon' && item.hasCoffee == true) {
+        return true
+    }
+    if (item.name === 'Simon' && item.hasCoffee == true) {
+        return false
+    }
+    else {
+        return false
+    }
 
 }
 
