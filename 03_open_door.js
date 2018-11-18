@@ -23,7 +23,7 @@ function openDoor(input) {
 function makeItem(name, hasCoffee) {
     item = new Object()
     item.name = name
-    item.hasCoffee = hasCoffee
+    item.hasCoffee = hasCoffee 
     return item
 }
 
