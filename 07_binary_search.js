@@ -15,9 +15,12 @@ Example:
     In the third and final step we are only left with 8 at index 2.
 
 */
+let sortedArray = [1,5,8,12,20,21,35] 
 
 function binarySearch(sortedArray, searchValue) {
     // Your code here
+    sorted = array.sort(function(a,b){return a-b})
+    console.log(sorted)
 }
 
 
