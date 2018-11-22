@@ -9,7 +9,10 @@ If the input array is empty consider it as: [0] (array with a zero).
 
 function oddOrEven(array) {
     //enter code here
+    var isOdd = function(x) { return x & 1; };
+    var isEven  = function(x) { return !( x & 1 ); };
 }
+
 
 var assert = require('assert');
 
