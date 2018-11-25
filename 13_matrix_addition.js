@@ -18,6 +18,11 @@ It may help to write out the array beforehand if the examples are confusing.
 
 function matrixAddition(matrixOne, matrixTwo) {
     // Your code here
+    matrixOne = [[1,2,3,4,5], [1,2,3,4,5]]
+    matrixTwo = [[4,5,6,7,8,9], [4,5,6,7,8,9]]
+
+    sum1 = matrixOne[0] + matrixOne[1]
+    sum2 = matrixTwo[0] + matrixTwo[1]
 }
 
 const assert = require ('assert');
