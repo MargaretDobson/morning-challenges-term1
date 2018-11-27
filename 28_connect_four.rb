@@ -29,11 +29,25 @@
 #
 # The columns are numbered 0-6 left to right.
 
+# #  #  #  #  #  #  #
+# 1 11  12 13 14 15 16
+# 2 21  22 23 24 25 26
+# 3 31  32 33 34 35 26
+# 4 41  42 43 44 45 46
+# 5 51  52 53 54 55 56
+# 6 61  62 63 64 65 66
+
 class Connect4
   def initialize
     #your code here
   end
+    puts "place your first piece (red)"
+    move_one = gets.chomp
+
   def play(column)
+    case move_one
+    when move_one == 1
+      move_one
     
   end  
 end
